@@ -11,7 +11,6 @@
   inputs.src-nimbioseq-master.ref   = "refs/heads/master";
   inputs.src-nimbioseq-master.owner = "jhbadger";
   inputs.src-nimbioseq-master.repo  = "nimbioseq";
-  inputs.src-nimbioseq-master.dir   = "";
   inputs.src-nimbioseq-master.type  = "github";
   
   inputs."zip".owner = "nim-nix-pkgs";
