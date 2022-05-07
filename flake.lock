@@ -21,6 +21,34 @@
         "type": "github"
       }
     },
+    "nimbioseq-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-nimbioseq-master": "src-nimbioseq-master",
+        "zip": "zip"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651556779,
+        "narHash": "sha256-9NWGzfeQQa5B55fTvpD7mlEXURMFKtgjlRHpDilLghI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimbioseq",
+        "rev": "e71aad435030c65c479766fddee9c84e12f78c27",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimbioseq",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "narHash": "sha256-7sWpWRO0IsBP5jm9qCrpuzDkWC7UAghiCmZZ+1uqHKo=",
@@ -35,9 +63,8 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
-        "nixpkgs": "nixpkgs",
-        "src-nimbioseq-master": "src-nimbioseq-master",
-        "zip": "zip"
+        "nimbioseq-master": "nimbioseq-master",
+        "nixpkgs": "nixpkgs"
       }
     },
     "src-nimbioseq-master": {
@@ -77,20 +104,22 @@
     "zip": {
       "inputs": {
         "flakeNimbleLib": [
+          "nimbioseq-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "nimbioseq-master",
           "nixpkgs"
         ],
         "src-zip-0_3_1": "src-zip-0_3_1"
       },
       "locked": {
         "dir": "0_3_1",
-        "lastModified": 1651918630,
-        "narHash": "sha256-C8QN5Q3RFKBJABVXurB3/QXJDnuEasEWg0vmt/5A65o=",
+        "lastModified": 1651556292,
+        "narHash": "sha256-w3cAqmBo8wkS0E4zBcxzViGeLZxHdwocjHF252sVW1w=",
         "owner": "nim-nix-pkgs",
         "repo": "zip",
-        "rev": "5f62a53c0d39736fde0c682b7403d4e5333edde8",
+        "rev": "04c0b3e1a02ba029457bffcf75300e05f45bf7de",
         "type": "github"
       },
       "original": {
